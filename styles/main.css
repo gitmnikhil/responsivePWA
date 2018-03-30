@@ -1,0 +1,67 @@
+@import url(font-awesome.min.css);
+html{
+    box-sizing: border-box
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline; 
+    background: #ffffff;
+    line-height: 1.65;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{
+    display: block
+}
+header{
+    background-color:#000;
+    height:50px;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    cursor:default;
+    position: fixed;
+    left:0px;
+    top:0px;
+    width:100%;
+    z-index:101;
+    line-height:3.25rem;
+}
+@media screen and (max-width: 980px) {
+    header{
+        line-height: 44px;
+    }
+}
+header > .logo{
+    color:#fff;
+    font-size:1rem;
+    height:inherit;
+    padding:0 1.25rem;
+    text-decoration:none;
+    font-weight:600;
+    margin:0;
+    vertical-align: baseline; 
+}
+
+header > nav > a:last-child{
+    padding-right:1.25rem;
+}
+header > nav > a[href="#menu"]{
+    text-decoration:none;
+    -webkit-tap-highlight-color:#000;
+    color:rgba(255, 255, 255, 0.5);
+}
+header > nav > a[href="#menu"]:before{
+    content:'\f0c9';
+    margin: 0 0.5rem 0 0;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important; 
+}
