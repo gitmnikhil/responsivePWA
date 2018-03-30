@@ -65,3 +65,39 @@ header > nav > a[href="#menu"]:before{
     font-weight: normal;
     text-transform: none !important; 
 }
+#banner{
+    width:100%;
+    -ms-flex-align: center;
+    -ms-flex-item-align: center;
+    color:#fff;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    display: flex;
+    background-color:#111111;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    background-image:url("../images/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 0;
+    display: -ms-flexbox;
+    height: 35rem !important;
+    min-height: 35rem;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+#banner h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem; }
+#banner p {
+    font-size: 1.5rem; 
+}
